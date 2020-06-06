@@ -1,0 +1,23 @@
+{
+  "name": "slack-shuffle-bot",
+  "description": "Slack bot to shuffle a space-separated string with a command.",
+  "author": {
+    "name": "David Sierra DiazGranados",
+    "email": "davidsierradz@gmail.com"
+  },
+  "licenses": [{"type": "MIT"}],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon .",
+    "serve": "node ."
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.1.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

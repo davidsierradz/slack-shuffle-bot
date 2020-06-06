@@ -1,0 +1,8 @@
+# Disallow all files
+*
+**
+
+# Root level
+!./package.json
+!./yarn.lock
+!./index.js
